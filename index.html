@@ -5,8 +5,8 @@
         <title>Резюме Богдановой А.А.</title>
         <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/menu.css">
-		
+		<link rel="stylesheet" href="css/menu.css">	
+		<link rel="stylesheet" href="css/media.css">	
 		
 		
 		<script src="js/wow.min.js"></script>
@@ -19,16 +19,14 @@
 
 	<header>
 		<div class="cd-fixed-bg cd-bg-1">
-		
-				
 		<div class="overlay-navigation">
 			<nav role="navigation">
 				<ul>
-					<li><a href="#home" data-content="The beginning">Home</a></li>
-					<li><a href="#about" data-content="Curious?">About</a></li>	
-					<li><a href="#" data-content="I got game">Skills</a></li>
-					<li><a href="#" data-content="Only the finest">Works</a></li>
-					<li><a href="#" data-content="Don't hesitate">Contact</a></li>
+					<li><a href="#home" class="open-overlay-menu" data-content="The beginning">Home</a></li>
+					<li><a href="#about" class="open-overlay-menu"  data-content="Давайте познакомимся">Обо мне</a></li>	
+					<li><a href="#" class="open-overlay-menu" data-content="I got game">Skills</a></li>
+					<li><a href="#" class="open-overlay-menu" data-content="Only the finest">Works</a></li>
+					<li><a href="#" class="open-overlay-menu" data-content="Don't hesitate">Contact</a></li>
 				</ul>
 			</nav>					
 		</div>
@@ -45,8 +43,8 @@
             <div class="top_desc">
                 <div class="top_centered">
                     <div class="top_text">
-						<h1 class="wow fadeInDown animated" data-wow-duration="2s">Алина Богданова</h1>
-						<p class="wow fadeInUp animated" data-wow-delay="1s">Junior front-end разработчик / HTML-верстальщик</p>
+						<h1 class="wow fadeInDown" data-wow-duration="2s">Алина Богданова</h1>
+						<p class="wow fadeInUp" data-wow-delay="1s">Junior front-end разработчик / HTML-верстальщик</p>
                     </div>
                 </div>
             </div>    
@@ -54,15 +52,62 @@
     </header>
     
     <main>
-		<div class="cd-scrolling-bg cd-color-2" id="about">
+		<div class="cd-scrolling-bg cd-color-2">
 		<div class="cd-container">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi...
-			</p>
+		
+			<section id="about" class="about">
+				<div class="section_header wow fadeInUp" data-wow-duration="2s">
+					<h1>Обо мне</h1>
+					
+					<div class="desc_about">
+						<p>Давайте познакомимся</p>
+					</div>
+				</div>
+				
+				<div class="section_content">
+					<div class="container">
+						<div class="desc_container">
+							<div class="desc_container_left wow fadeInLeft" data-wow-delay="1s">
+								<h3>Немного о себе</h3>
+								<p>Выпускница РГУ им. Косыгина (бывш. МГУДТ) факультета "Мехатроники и информационных технологий" по специальности "Информационные технологии в дизайне" (инженер) - диплом с отличием. </p>
+								<p>Недавно прошла бесплатный курс в HTML-Академии. Сейчас продолжаю обучаться на geekbrains.ru 
+								
+								Стараюсь выполнить работу качественно и в указанные сроки. Хотелось бы развить свои навыки и научиться новым технологиям. Готова к интенсивному обучению.
+								</p>
+							</div>	
+							
+							<div class="desc_container_center">
+								<h3>Фото</h3>
+								<div class="person">
+									<a href="img/photo.jpg"> 
+										<img src="img/photo.jpg" alt="Photo" class=" wow pulse">
+									</a>								
+								</div>
+							</div>	
+							
+							<div class="desc_container_right wow fadeInRight" data-wow-delay="1s">
+								<h3>Персональная информация</h3>
+								<h4>Богданова Алина</h4>
+								
+								<ul>
+									<li>Junior front-end разработчик / HTML-верстальщик</li>
+									<li>День рождение: 30 марта 1992 года</li>
+									<li>Номер телефона: 8-910-428-87-04</li>
+									<li>E-mail: <a href="mailto:alinabogdanova3003@gmail.com">alinabogdanova3003@gmail.com</a></li>
+								</ul>
+							</div>	
+							
+							
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			
 		</div> 
 	</div> 
         
-        <section></section>
         <section></section>
         <section></section>
     
@@ -74,6 +119,7 @@
 	<script src="js/velocity.min.js"></script>
 	<script src="js/velocity.ui.min.js"></script>
 	<script src="js/index.js"></script>
+	<script src="js/index-1.js"></script>
 	
 
 	
