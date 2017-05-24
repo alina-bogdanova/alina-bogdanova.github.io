@@ -154,7 +154,7 @@ Burger king
 .open-overlay span {
   display: block;
   height: 1px;
-  background-color: #89adad;
+  background-color: #44a293;
   cursor: pointer;
   margin-top: 8px;
 }
@@ -334,7 +334,7 @@ Animation keyframes
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    background-color: #89adad;
+    background-color: #44a293;
   }
 }
 
@@ -374,7 +374,7 @@ Animation keyframes
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    background-color: #89adad;
+    background-color: #44a293;
   }
 }
 
@@ -398,7 +398,7 @@ Animation keyframes
     background-color: #29363B;
   }
   100% {
-    background-color: #89adad;
+    background-color: #44a293;
   }
 }
 
