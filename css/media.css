@@ -53,6 +53,10 @@
 		font-family:monospace;
 	}
 	
+	header{
+	height:100%;
+	}
+	
 	.section_header{
 		width: 95%;
 		margin: 0 auto;
