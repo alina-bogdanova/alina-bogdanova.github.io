@@ -53,6 +53,10 @@
 		font-family:monospace;
 	}
 	
+	header{
+		min-height: 640px;
+	}
+	
 	.cd-fixed-bg {
     background-attachment: scroll;
 	}
