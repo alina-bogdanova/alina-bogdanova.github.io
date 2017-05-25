@@ -49,6 +49,10 @@
 }
 
 @media (max-width: 480px) {
+	body{
+		font-family:monospace;
+	}
+	
 	.section_header{
 		width: 95%;
 		margin: 0 auto;
