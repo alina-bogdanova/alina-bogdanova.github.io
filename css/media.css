@@ -53,8 +53,8 @@
 		font-family:monospace;
 	}
 	
-	header{
-	height:100%;
+	.cd-fixed-bg {
+    background-attachment: scroll;
 	}
 	
 	.section_header{
