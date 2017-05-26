@@ -49,13 +49,21 @@
 }
 
 @media (max-width: 480px) {
-	body{
-		font-family:monospace;
-	}
-	
+
 	header{
 		min-height: 640px;
 	}
+	
+	h1,h2,h3,p,
+	.top_wrapper .top_text h1,
+	.top_wrapper .top_text  p,
+	.section_header h1,
+	.section_header p,
+	.desc_container h3,
+	.desc_container_left p{
+		font-weight:normal;
+	}
+	
 	
 	.cd-fixed-bg {
     background-attachment: scroll;
